@@ -7,10 +7,11 @@ import './PageNotFound.css';
 const PageNotFound: React.FC = (): JSX.Element => {
   return (
     <div className="PageNotFound">
-      <h2>The page you are looking for doesn't exist</h2>
-      <img src={NotFound} alt='' /> 
+      <div>The page you are looking for does not exist</div>
+      <div>404</div>
+      <img src={NotFound} alt='' />
       <div>
-      <NavLink to="/home" className="Back">Back Home<Undo /></NavLink>
+        <NavLink to="/home" className="Back">Back Home<Undo /></NavLink>
       </div>
     </div>
   );
