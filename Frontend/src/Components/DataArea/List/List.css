@@ -1,0 +1,28 @@
+.List .SelectBox {
+  color: white;	
+}
+
+.List h2 {
+  position: absolute;
+  top: 50%; right: 50%;
+  transform: translate(50%,-50%);
+}
+
+.List table {
+  margin: 20px auto;
+}
+
+.List table,
+.List th,
+.List td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.Mode {
+  position: relative;
+  top: 44px;
+  right: 500px;
+  cursor: pointer;
+}

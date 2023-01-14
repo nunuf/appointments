@@ -1,0 +1,11 @@
+.Card {
+  height: 190px !important;
+  overflow: hidden;
+}
+
+.Card .Description {
+  text-align: center;
+  max-height: 30%;
+  word-wrap: break-word;
+  overflow-y: auto;
+}
