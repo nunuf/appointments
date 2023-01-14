@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Apps, TableChart } from '@mui/icons-material';
 import { FormControl, InputLabel, MenuItem, Select, SelectChangeEvent, Tooltip } from '@mui/material';
 import DevGroupModel from '../../../Models/DevGroupModel';
 import appointmentsService from '../../../Services/AppointmentsService';
@@ -6,7 +7,6 @@ import AppointmentModel from '../../../Models/AppointmentModel';
 import Card from '../Card/Card';
 
 import './List.css';
-import { Apps, TableChart } from '@mui/icons-material';
 
 const List: React.FC = (): JSX.Element => {
   const [devGroups, setDevGroups] = useState<DevGroupModel[]>([]);
